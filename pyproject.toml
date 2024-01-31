@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "notebooks-openai"
+version = "0.1.0"
+description = ""
+authors = ["Kristaps Taube <t.kristaps@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ruff = "^0.1.14"
+jupyterlab = "^4.0.12"
+ipython = "^8.21.0"
+python-dotenv = "^1.0.1"
+openai = "^1.10.0"
+
+[tool.ruff]
+extend-include = ["notebooks"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
