@@ -1,6 +1,10 @@
-# Description
 
-Just a starter notebook template.
+# notebooks-openai
+
+Collection of experiments with openai api.
+
+## Description
+
 Install base with `conda` and extra deps with `poetry`.
 
 ```sh
