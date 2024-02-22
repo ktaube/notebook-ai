@@ -1,4 +1,4 @@
-name: notebook-openai
+name: notebook-ai
 channels:
   - conda-forge
   - defaults
